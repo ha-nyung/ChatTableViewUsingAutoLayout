@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReceivedMessageCell" rowHeight="60" id="5aV-H6-rDX" customClass="MessageCell" customModule="ChatLogsDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5aV-H6-rDX" id="Q33-RY-jM5">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="olV-j9-4Yj">
+                        <rect key="frame" x="8" y="8" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="HwM-RF-54v"/>
+                            <constraint firstAttribute="width" constant="44" id="bhE-Sp-Jnl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sender name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkB-1f-Td8">
+                        <rect key="frame" x="60" y="8" width="67" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_w_mbox" translatesAutoresizingMaskIntoConstraints="NO" id="Vog-05-A00">
+                        <rect key="frame" x="60" y="28" width="97" height="30"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="message text" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="75" translatesAutoresizingMaskIntoConstraints="NO" id="Ep4-Nn-UgV">
+                        <rect key="frame" x="74" y="33" width="75" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udd-9c-bnn">
+                        <rect key="frame" x="162" y="46" width="21" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="udd-9c-bnn" firstAttribute="leading" secondItem="Vog-05-A00" secondAttribute="trailing" constant="5" id="Ema-WG-7L3"/>
+                    <constraint firstItem="Vog-05-A00" firstAttribute="bottom" secondItem="Ep4-Nn-UgV" secondAttribute="bottom" constant="5" id="Nwe-KK-7mN"/>
+                    <constraint firstItem="Vog-05-A00" firstAttribute="top" secondItem="Q33-RY-jM5" secondAttribute="top" constant="28" id="O9h-Ys-IVr"/>
+                    <constraint firstItem="Vog-05-A00" firstAttribute="leading" secondItem="Ep4-Nn-UgV" secondAttribute="leading" constant="-14" id="QR8-Pc-KAw"/>
+                    <constraint firstItem="olV-j9-4Yj" firstAttribute="leading" secondItem="Q33-RY-jM5" secondAttribute="leading" constant="8" id="QeE-Tg-0rc"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="udd-9c-bnn" secondAttribute="trailing" constant="10" id="Zpn-aw-VD6"/>
+                    <constraint firstItem="Vog-05-A00" firstAttribute="bottom" secondItem="udd-9c-bnn" secondAttribute="bottom" id="e4F-1F-ABj"/>
+                    <constraint firstItem="Vog-05-A00" firstAttribute="top" secondItem="Ep4-Nn-UgV" secondAttribute="top" constant="-5" id="hEd-X8-fcO"/>
+                    <constraint firstItem="olV-j9-4Yj" firstAttribute="top" secondItem="Q33-RY-jM5" secondAttribute="top" constant="8" id="hqz-Px-637"/>
+                    <constraint firstItem="lkB-1f-Td8" firstAttribute="leading" secondItem="olV-j9-4Yj" secondAttribute="trailing" constant="8" id="l07-I5-1YS"/>
+                    <constraint firstItem="Vog-05-A00" firstAttribute="leading" secondItem="lkB-1f-Td8" secondAttribute="leading" id="ok1-ZE-hZt"/>
+                    <constraint firstItem="Vog-05-A00" firstAttribute="trailing" secondItem="Ep4-Nn-UgV" secondAttribute="trailing" constant="8" id="p4F-mN-Atz"/>
+                    <constraint firstItem="olV-j9-4Yj" firstAttribute="top" secondItem="lkB-1f-Td8" secondAttribute="top" id="tpE-2V-tGg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="messageLabel" destination="Ep4-Nn-UgV" id="a8Z-ji-PrO"/>
+                <outlet property="nameLabel" destination="lkB-1f-Td8" id="IfI-bq-y7I"/>
+                <outlet property="profileImageView" destination="olV-j9-4Yj" id="d5C-FR-zvn"/>
+                <outlet property="updatedAtLabel" destination="udd-9c-bnn" id="c0S-s0-c5H"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="224"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_w_mbox" width="42" height="30"/>
+    </resources>
+</document>

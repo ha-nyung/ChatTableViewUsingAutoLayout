@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A256F440199F622800B416D9 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = A256F43F199F622800B416D9 /* face.png */; };
+		A29D8A3F199DD09E004F2492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D8A3E199DD09E004F2492 /* AppDelegate.swift */; };
+		A29D8A44199DD09E004F2492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A42199DD09E004F2492 /* Main.storyboard */; };
+		A29D8A46199DD09E004F2492 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A45199DD09E004F2492 /* Images.xcassets */; };
+		A29D8A5C199DD12A004F2492 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D8A5B199DD12A004F2492 /* TableViewController.swift */; };
+		A29D8A5E199DD195004F2492 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D8A5D199DD195004F2492 /* MessageCell.swift */; };
+		A29D8A60199DD1A5004F2492 /* SentMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A5F199DD1A5004F2492 /* SentMessageCell.xib */; };
+		A29D8A62199DD1AC004F2492 /* ReceivedMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A61199DD1AC004F2492 /* ReceivedMessageCell.xib */; };
+		A29D8A64199DDA64004F2492 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D8A63199DDA64004F2492 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A256F43F199F622800B416D9 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		A29D8A39199DD09E004F2492 /* ChatLogsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatLogsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29D8A3D199DD09E004F2492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29D8A3E199DD09E004F2492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A29D8A43199DD09E004F2492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A29D8A45199DD09E004F2492 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A29D8A5B199DD12A004F2492 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A29D8A5D199DD195004F2492 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A29D8A5F199DD1A5004F2492 /* SentMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentMessageCell.xib; sourceTree = "<group>"; };
+		A29D8A61199DD1AC004F2492 /* ReceivedMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedMessageCell.xib; sourceTree = "<group>"; };
+		A29D8A63199DDA64004F2492 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A29D8A36199DD09E004F2492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A29D8A30199DD09E004F2492 = {
+			isa = PBXGroup;
+			children = (
+				A29D8A3B199DD09E004F2492 /* ChatLogsDemo */,
+				A29D8A3A199DD09E004F2492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A29D8A3A199DD09E004F2492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29D8A39199DD09E004F2492 /* ChatLogsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A29D8A3B199DD09E004F2492 /* ChatLogsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A29D8A3E199DD09E004F2492 /* AppDelegate.swift */,
+				A29D8A42199DD09E004F2492 /* Main.storyboard */,
+				A29D8A5B199DD12A004F2492 /* TableViewController.swift */,
+				A29D8A5D199DD195004F2492 /* MessageCell.swift */,
+				A29D8A5F199DD1A5004F2492 /* SentMessageCell.xib */,
+				A29D8A61199DD1AC004F2492 /* ReceivedMessageCell.xib */,
+				A29D8A63199DDA64004F2492 /* Message.swift */,
+				A256F43F199F622800B416D9 /* face.png */,
+				A29D8A45199DD09E004F2492 /* Images.xcassets */,
+				A29D8A3C199DD09E004F2492 /* Supporting Files */,
+			);
+			path = ChatLogsDemo;
+			sourceTree = "<group>";
+		};
+		A29D8A3C199DD09E004F2492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A29D8A3D199DD09E004F2492 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29D8A38199DD09E004F2492 /* ChatLogsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29D8A55199DD09E004F2492 /* Build configuration list for PBXNativeTarget "ChatLogsDemo" */;
+			buildPhases = (
+				A29D8A35199DD09E004F2492 /* Sources */,
+				A29D8A36199DD09E004F2492 /* Frameworks */,
+				A29D8A37199DD09E004F2492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatLogsDemo;
+			productName = ChatLogsDemo;
+			productReference = A29D8A39199DD09E004F2492 /* ChatLogsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A29D8A31199DD09E004F2492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Josh Chung";
+				TargetAttributes = {
+					A29D8A38199DD09E004F2492 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = A29D8A34199DD09E004F2492 /* Build configuration list for PBXProject "ChatLogsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A29D8A30199DD09E004F2492;
+			productRefGroup = A29D8A3A199DD09E004F2492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29D8A38199DD09E004F2492 /* ChatLogsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A29D8A37199DD09E004F2492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29D8A62199DD1AC004F2492 /* ReceivedMessageCell.xib in Resources */,
+				A256F440199F622800B416D9 /* face.png in Resources */,
+				A29D8A44199DD09E004F2492 /* Main.storyboard in Resources */,
+				A29D8A60199DD1A5004F2492 /* SentMessageCell.xib in Resources */,
+				A29D8A46199DD09E004F2492 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29D8A35199DD09E004F2492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29D8A3F199DD09E004F2492 /* AppDelegate.swift in Sources */,
+				A29D8A64199DDA64004F2492 /* Message.swift in Sources */,
+				A29D8A5C199DD12A004F2492 /* TableViewController.swift in Sources */,
+				A29D8A5E199DD195004F2492 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A29D8A42199DD09E004F2492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29D8A43199DD09E004F2492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A29D8A53199DD09E004F2492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A29D8A54199DD09E004F2492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A29D8A56199DD09E004F2492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ChatLogsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A29D8A57199DD09E004F2492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ChatLogsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A29D8A34199DD09E004F2492 /* Build configuration list for PBXProject "ChatLogsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29D8A53199DD09E004F2492 /* Debug */,
+				A29D8A54199DD09E004F2492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29D8A55199DD09E004F2492 /* Build configuration list for PBXNativeTarget "ChatLogsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29D8A56199DD09E004F2492 /* Debug */,
+				A29D8A57199DD09E004F2492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A29D8A31199DD09E004F2492 /* Project object */;
+}
