@@ -51,9 +51,9 @@ class MessageCell: UITableViewCell {
     class func height(#message: Message, constraintSize: CGSize) -> CGFloat {
         let dateString: NSString = NSString(string: dateFormatter.stringFromDate(message.updatedAt))
         let dateSize = dateString.sizeWithAttributes([NSFontAttributeName: UIFont.systemFontOfSize(10)])
-        var messageWidthConstraint = constraintSize.width - dateSize.width - 42
+        var messageWidthConstraint = constraintSize.width - dateSize.width - 14 - 8 - 5 - 10
         if message.type == MessageType.ReceivedMessage {
-            messageWidthConstraint -= 60;
+            messageWidthConstraint -= 8 + 44 + 8;
         }
         
         let contentSize = NSString(string: message.message).boundingRectWithSize(CGSizeMake(messageWidthConstraint, CGFloat.max),
@@ -70,6 +70,5 @@ class MessageCell: UITableViewCell {
         if message?.type == MessageType.ReceivedMessage {
             messageLabel.preferredMaxLayoutWidth -= 60
         }
-        super.layoutSubviews()
     }
 }

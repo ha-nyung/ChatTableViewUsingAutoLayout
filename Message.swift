@@ -14,11 +14,18 @@ enum MessageType {
     case SentMessage, ReceivedMessage
 }
 
-struct Message {
+class Message {
     var senderName: String
     var message: String
     var updatedAt: NSDate
     var type: MessageType
+    
+    init(senderName: String, message: String, updatedAt: NSDate, type: MessageType) {
+        self.senderName = senderName
+        self.message = message
+        self.updatedAt = updatedAt
+        self.type = type
+    }
 }
 
 func createRandomMessage() -> Message {

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6205" systemVersion="13F14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SentMessageCell" rowHeight="40" id="Xud-cF-qnU" customClass="MessageCell" customModule="ChatLogsDemo" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SentMessageCell" rowHeight="44" id="Xud-cF-qnU" customClass="MessageCell" customModule="ChatLogsDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xud-cF-qnU" id="Xyl-IM-Ffk">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOA-kv-dEd">
-                        <rect key="frame" x="192" y="28" width="21" height="12"/>
+                        <rect key="frame" x="197" y="28" width="21" height="12"/>
                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
@@ -29,13 +29,13 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="top" secondItem="Xyl-IM-Ffk" secondAttribute="top" constant="10" id="OTa-Wg-kAh"/>
+                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="top" secondItem="ucH-pl-TIn" secondAttribute="top" constant="-5" id="2o2-QW-IiW"/>
+                    <constraint firstAttribute="trailing" secondItem="e2Y-Mt-u6N" secondAttribute="trailing" id="5Nb-6i-BVY"/>
+                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="leading" secondItem="ucH-pl-TIn" secondAttribute="leading" constant="-8" id="IpU-Db-VVp"/>
                     <constraint firstItem="e2Y-Mt-u6N" firstAttribute="trailing" secondItem="ucH-pl-TIn" secondAttribute="trailing" constant="14" id="QUZ-vQ-eXG"/>
                     <constraint firstItem="e2Y-Mt-u6N" firstAttribute="bottom" secondItem="ucH-pl-TIn" secondAttribute="bottom" constant="5" id="Qq1-jp-NOa"/>
-                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="trailing" secondItem="Xyl-IM-Ffk" secondAttribute="trailing" id="aCy-Tn-AJf"/>
-                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="top" secondItem="ucH-pl-TIn" secondAttribute="top" constant="-5" id="fkD-3D-l5j"/>
-                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="leading" secondItem="ucH-pl-TIn" secondAttribute="leading" constant="-8" id="qXL-lz-ggG"/>
-                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="leading" secondItem="iOA-kv-dEd" secondAttribute="trailing" constant="10" id="uF8-MU-xdj"/>
+                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="top" secondItem="Xyl-IM-Ffk" secondAttribute="top" constant="10" id="aeK-DX-KGU"/>
+                    <constraint firstItem="e2Y-Mt-u6N" firstAttribute="leading" secondItem="iOA-kv-dEd" secondAttribute="trailing" constant="5" id="uF8-MU-xdj"/>
                     <constraint firstItem="iOA-kv-dEd" firstAttribute="bottom" secondItem="e2Y-Mt-u6N" secondAttribute="bottom" id="yF9-e8-84X"/>
                     <constraint firstItem="iOA-kv-dEd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Xyl-IM-Ffk" secondAttribute="leading" constant="10" id="z17-BI-Ubj"/>
                 </constraints>
@@ -45,7 +45,7 @@
                 <outlet property="messageLabel" destination="ucH-pl-TIn" id="yCP-Jq-uJ8"/>
                 <outlet property="updatedAtLabel" destination="iOA-kv-dEd" id="3lu-xW-B50"/>
             </connections>
-            <point key="canvasLocation" x="321" y="214"/>
+            <point key="canvasLocation" x="321" y="216"/>
         </tableViewCell>
     </objects>
     <resources>

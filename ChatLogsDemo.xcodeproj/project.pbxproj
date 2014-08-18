@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A256F440199F622800B416D9 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = A256F43F199F622800B416D9 /* face.png */; };
+		A220012019A0B30F004D0AED /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC2F3F19A0B2480012F379 /* Message.swift */; };
+		A220012119A0B314004D0AED /* MyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC2F3B19A0B1420012F379 /* MyImages.xcassets */; };
+		A220012319A0B440004D0AED /* SentMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A220012219A0B440004D0AED /* SentMessageCell.xib */; };
+		A220012519A0B44A004D0AED /* ReceivedMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A220012419A0B44A004D0AED /* ReceivedMessageCell.xib */; };
+		A2900D9919A18D4F002866B2 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2900D9819A18D4F002866B2 /* WindowController.swift */; };
+		A2900D9D19A1923D002866B2 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2900D9C19A1923D002866B2 /* Main.xib */; };
+		A2900DA119A1945A002866B2 /* OSXMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2900DA019A1945A002866B2 /* OSXMessageCell.swift */; };
+		A2900DA319A1BAE1002866B2 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2900DA219A1BAE1002866B2 /* MyTextView.swift */; };
 		A29D8A3F199DD09E004F2492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D8A3E199DD09E004F2492 /* AppDelegate.swift */; };
 		A29D8A44199DD09E004F2492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A42199DD09E004F2492 /* Main.storyboard */; };
 		A29D8A46199DD09E004F2492 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A45199DD09E004F2492 /* Images.xcassets */; };
@@ -15,11 +22,20 @@
 		A29D8A5E199DD195004F2492 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D8A5D199DD195004F2492 /* MessageCell.swift */; };
 		A29D8A60199DD1A5004F2492 /* SentMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A5F199DD1A5004F2492 /* SentMessageCell.xib */; };
 		A29D8A62199DD1AC004F2492 /* ReceivedMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D8A61199DD1AC004F2492 /* ReceivedMessageCell.xib */; };
-		A29D8A64199DDA64004F2492 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D8A63199DDA64004F2492 /* Message.swift */; };
+		A2BC2F3C19A0B1420012F379 /* MyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC2F3B19A0B1420012F379 /* MyImages.xcassets */; };
+		A2BC2F4019A0B2480012F379 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC2F3F19A0B2480012F379 /* Message.swift */; };
+		A2FC968519A0B2EF00121414 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC968419A0B2EF00121414 /* main.swift */; };
+		A2FC968919A0B2EF00121414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC968819A0B2EF00121414 /* AppDelegate.swift */; };
+		A2FC968B19A0B2EF00121414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FC968A19A0B2EF00121414 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A256F43F199F622800B416D9 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		A220012219A0B440004D0AED /* SentMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentMessageCell.xib; sourceTree = "<group>"; };
+		A220012419A0B44A004D0AED /* ReceivedMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedMessageCell.xib; sourceTree = "<group>"; };
+		A2900D9819A18D4F002866B2 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		A2900D9C19A1923D002866B2 /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		A2900DA019A1945A002866B2 /* OSXMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSXMessageCell.swift; sourceTree = "<group>"; };
+		A2900DA219A1BAE1002866B2 /* MyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		A29D8A39199DD09E004F2492 /* ChatLogsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatLogsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29D8A3D199DD09E004F2492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29D8A3E199DD09E004F2492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,11 +45,24 @@
 		A29D8A5D199DD195004F2492 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		A29D8A5F199DD1A5004F2492 /* SentMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentMessageCell.xib; sourceTree = "<group>"; };
 		A29D8A61199DD1AC004F2492 /* ReceivedMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedMessageCell.xib; sourceTree = "<group>"; };
-		A29D8A63199DDA64004F2492 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A2BC2F3B19A0B1420012F379 /* MyImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MyImages.xcassets; sourceTree = SOURCE_ROOT; };
+		A2BC2F3F19A0B2480012F379 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = SOURCE_ROOT; };
+		A2FC968019A0B2EF00121414 /* ChatLogsDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatLogsDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FC968319A0B2EF00121414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FC968419A0B2EF00121414 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A2FC968819A0B2EF00121414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2FC968A19A0B2EF00121414 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A29D8A36199DD09E004F2492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FC967D19A0B2EF00121414 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,7 +75,9 @@
 		A29D8A30199DD09E004F2492 = {
 			isa = PBXGroup;
 			children = (
+				A2BC2F6619A0B2850012F379 /* Common */,
 				A29D8A3B199DD09E004F2492 /* ChatLogsDemo */,
+				A2FC968119A0B2EF00121414 /* ChatLogsDemoOSX */,
 				A29D8A3A199DD09E004F2492 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				A29D8A39199DD09E004F2492 /* ChatLogsDemo.app */,
+				A2FC968019A0B2EF00121414 /* ChatLogsDemoOSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,8 +100,6 @@
 				A29D8A5D199DD195004F2492 /* MessageCell.swift */,
 				A29D8A5F199DD1A5004F2492 /* SentMessageCell.xib */,
 				A29D8A61199DD1AC004F2492 /* ReceivedMessageCell.xib */,
-				A29D8A63199DDA64004F2492 /* Message.swift */,
-				A256F43F199F622800B416D9 /* face.png */,
 				A29D8A45199DD09E004F2492 /* Images.xcassets */,
 				A29D8A3C199DD09E004F2492 /* Supporting Files */,
 			);
@@ -80,6 +110,40 @@
 			isa = PBXGroup;
 			children = (
 				A29D8A3D199DD09E004F2492 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2BC2F6619A0B2850012F379 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A2BC2F3B19A0B1420012F379 /* MyImages.xcassets */,
+				A2BC2F3F19A0B2480012F379 /* Message.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A2FC968119A0B2EF00121414 /* ChatLogsDemoOSX */ = {
+			isa = PBXGroup;
+			children = (
+				A2FC968819A0B2EF00121414 /* AppDelegate.swift */,
+				A2900D9819A18D4F002866B2 /* WindowController.swift */,
+				A2900DA019A1945A002866B2 /* OSXMessageCell.swift */,
+				A2900DA219A1BAE1002866B2 /* MyTextView.swift */,
+				A2900D9C19A1923D002866B2 /* Main.xib */,
+				A220012219A0B440004D0AED /* SentMessageCell.xib */,
+				A220012419A0B44A004D0AED /* ReceivedMessageCell.xib */,
+				A2FC968A19A0B2EF00121414 /* Images.xcassets */,
+				A2FC968219A0B2EF00121414 /* Supporting Files */,
+			);
+			path = ChatLogsDemoOSX;
+			sourceTree = "<group>";
+		};
+		A2FC968219A0B2EF00121414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FC968319A0B2EF00121414 /* Info.plist */,
+				A2FC968419A0B2EF00121414 /* main.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -104,6 +168,23 @@
 			productReference = A29D8A39199DD09E004F2492 /* ChatLogsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A2FC967F19A0B2EF00121414 /* ChatLogsDemoOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FC969B19A0B2F000121414 /* Build configuration list for PBXNativeTarget "ChatLogsDemoOSX" */;
+			buildPhases = (
+				A2FC967C19A0B2EF00121414 /* Sources */,
+				A2FC967D19A0B2EF00121414 /* Frameworks */,
+				A2FC967E19A0B2EF00121414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatLogsDemoOSX;
+			productName = ChatLogsDemoOSX;
+			productReference = A2FC968019A0B2EF00121414 /* ChatLogsDemoOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -114,6 +195,9 @@
 				ORGANIZATIONNAME = "Josh Chung";
 				TargetAttributes = {
 					A29D8A38199DD09E004F2492 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A2FC967F19A0B2EF00121414 = {
 						CreatedOnToolsVersion = 6.0;
 					};
 				};
@@ -132,6 +216,7 @@
 			projectRoot = "";
 			targets = (
 				A29D8A38199DD09E004F2492 /* ChatLogsDemo */,
+				A2FC967F19A0B2EF00121414 /* ChatLogsDemoOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -142,10 +227,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29D8A62199DD1AC004F2492 /* ReceivedMessageCell.xib in Resources */,
-				A256F440199F622800B416D9 /* face.png in Resources */,
 				A29D8A44199DD09E004F2492 /* Main.storyboard in Resources */,
+				A2BC2F3C19A0B1420012F379 /* MyImages.xcassets in Resources */,
 				A29D8A60199DD1A5004F2492 /* SentMessageCell.xib in Resources */,
 				A29D8A46199DD09E004F2492 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FC967E19A0B2EF00121414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220012119A0B314004D0AED /* MyImages.xcassets in Resources */,
+				A2900D9D19A1923D002866B2 /* Main.xib in Resources */,
+				A2FC968B19A0B2EF00121414 /* Images.xcassets in Resources */,
+				A220012319A0B440004D0AED /* SentMessageCell.xib in Resources */,
+				A220012519A0B44A004D0AED /* ReceivedMessageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,9 +254,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29D8A3F199DD09E004F2492 /* AppDelegate.swift in Sources */,
-				A29D8A64199DDA64004F2492 /* Message.swift in Sources */,
+				A2BC2F4019A0B2480012F379 /* Message.swift in Sources */,
 				A29D8A5C199DD12A004F2492 /* TableViewController.swift in Sources */,
 				A29D8A5E199DD195004F2492 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FC967C19A0B2EF00121414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220012019A0B30F004D0AED /* Message.swift in Sources */,
+				A2900DA319A1BAE1002866B2 /* MyTextView.swift in Sources */,
+				A2900DA119A1945A002866B2 /* OSXMessageCell.swift in Sources */,
+				A2900D9919A18D4F002866B2 /* WindowController.swift in Sources */,
+				A2FC968919A0B2EF00121414 /* AppDelegate.swift in Sources */,
+				A2FC968519A0B2EF00121414 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +373,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChatLogsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -276,9 +387,43 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChatLogsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A2FC969C19A0B2F000121414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChatLogsDemoOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2FC969D19A0B2F000121414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = ChatLogsDemoOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -299,6 +444,15 @@
 			buildConfigurations = (
 				A29D8A56199DD09E004F2492 /* Debug */,
 				A29D8A57199DD09E004F2492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FC969B19A0B2F000121414 /* Build configuration list for PBXNativeTarget "ChatLogsDemoOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FC969C19A0B2F000121414 /* Debug */,
+				A2FC969D19A0B2F000121414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
