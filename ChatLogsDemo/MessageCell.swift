@@ -35,7 +35,7 @@ class MessageCell: UITableViewCell {
                 profileImageView.image = UIImage(named: "face")
             }
             messageLabel.text = message?.message
-            updatedAtLabel.text = MessageCell.dateFormatter.stringFromDate(message?.updatedAt)
+            updatedAtLabel.text = MessageCell.dateFormatter.stringFromDate(message!.updatedAt)
         }
     }
     

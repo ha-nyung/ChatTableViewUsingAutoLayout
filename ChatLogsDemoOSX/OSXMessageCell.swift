@@ -28,7 +28,7 @@ class OSXMessageCell: NSTableCellView {
                 profileImageView.image = NSImage(named: "face")
             }
             messageTextView?.string = message?.message
-            updatedAtLabel.stringValue = OSXMessageCell.dateFormatter.stringFromDate(message?.updatedAt)
+            updatedAtLabel.stringValue = OSXMessageCell.dateFormatter.stringFromDate(message!.updatedAt)
             
             self.needsUpdateConstraints = true
         }
